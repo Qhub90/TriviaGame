@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href=C:\Users\qdama\Documents\fullStackCourse\workingFolder\Week5\TriviaGame\assets\css\style.css />
+    
+   
+</head>
+<body background="C:\Users\qdama\Documents\fullStackCourse\workingFolder\Week5\TriviaGame\assets\images\game_background_54-.jpg">
+   
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-9">
+              <h1 class="text-center border-solid">Animal Trivia!!</h1>
+           </div>
+           <div id="countDown" class="col-lg-9">
+                <button id ="startBtn" type="button" class="btn btn-block btn-danger btn-lg text-center">Start</button>
+           </div>
+       </div>
+       <div id="questions">
+          
+         <h3>What are a group of lions called?</h3>
+           <div class="custom-control custom-radio custom-control-inline ">
+               <input type="radio" id="group1" name="question1" class="custom-control-input" value="Gang">
+               <label class="custom-control-label" for="group1">Gang</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+               <input type="radio" id="group2" name="question1" class="custom-control-input" value="Posse">
+               <label class="custom-control-label" for="group2">Posse</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="group3" name="question1" class="custom-control-input" value="Pride">
+                <label class="custom-control-label" for="group3">Pride</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="group4" name="question1" class="custom-control-input" value="Bros">
+                <label class="custom-control-label" for="group4">Bros!</label>
+            </div>
+
+         <h3>Which of these mammals lay eggs?</h3>
+           <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="Eggs1" name="question2" class="custom-control-input">
+             <label class="custom-control-label" for="Eggs1">Giraffe</label>
+           </div>
+           <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="Eggs2" name="question2" class="custom-control-input">
+              <label class="custom-control-label" for="Eggs2">Platypus</label>
+           </div>
+           <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="Eggs3" name="question2" class="custom-control-input">
+                <label class="custom-control-label" for="Eggs3">Bear</label>
+           </div>
+           <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="Eggs4" name="question2" class="custom-control-input">
+                <label class="custom-control-label" for="Eggs4">Jay Cutler</label>
+           </div>
+        
+        <h3>Which is the largest mammal in the world?</h3>
+           <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="size1" name="question3" class="custom-control-input">
+              <label class="custom-control-label" for="size1">Blue Whale</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="size2" name="question3" class="custom-control-input">
+              <label class="custom-control-label" for="size2">New York Rat</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+               <input type="radio" id="size3" name="question3" class="custom-control-input">
+               <label class="custom-control-label" for="size3">Dog</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="size4" name="question3" class="custom-control-input">
+                <label class="custom-control-label" for="size4">elephant</label>
+            </div>
+        <h3>What sound does a dog make?</h3>
+           <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="sound1" name="question4" class="custom-control-input">
+             <label class="custom-control-label" for="sound1">meow</label>
+           </div>
+           <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="sound2" name="question4" class="custom-control-input">
+             <label class="custom-control-label" for="sound2">Yo</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="sound3" name="question4" class="custom-control-input">
+             <label class="custom-control-label" for="sound3">woof</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="sound4" name="question4" class="custom-control-input">
+             <label class="custom-control-label" for="sound4">quack</label>
+          </div>
+        <h3>Which animal has the longest lifespan?</h3>
+           <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="life1" name="question5" class="custom-control-input">
+             <label class="custom-control-label" for="life1">Locust</label>
+           </div>
+           <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="life2" name="question5" class="custom-control-input">
+             <label class="custom-control-label" for="life2">Giant Tortoise</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="life3" name="question5" class="custom-control-input">
+             <label class="custom-control-label" for="life3">Yoda</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="life4" name="question5" class="custom-control-input">
+             <label class="custom-control-label" for="life4">Alligator</label>
+          </div>
+        <h3>A tiger can eat you?</h3>   
+          <div class="custom-control custom-radio custom-control-inline">
+             <input type="radio" id="yes1" name="question6" class="custom-control-input">
+             <label class="custom-control-label" for="yes1">True</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="yes2" name="question6" class="custom-control-input">
+            <label class="custom-control-label" for="yes2">False</label>
+         </div>        
+        <h3>Where did Yogi and Boo Boo live?</h3> 
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="location1" name="question7" class="custom-control-input">
+            <label class="custom-control-label" for="location1">Yellowstone National Park</label>
+        </div> 
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="location2" name="question7" class="custom-control-input">
+            <label class="custom-control-label" for="location2">340 Superior St</label>
+        </div> 
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="location3" name="question7" class="custom-control-input">
+            <label class="custom-control-label" for="location3">Jellystone Park</label>
+        </div> 
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="location4" name="question7" class="custom-control-input">
+            <label class="custom-control-label" for="location4">Yosemite National Park</label>
+        </div> 
+    </div>
+
+       <br>
+       <input id="button" type="button" value="Done!" onclick="score();">
+   </div> 
+
+
+
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="assets\javascript\app.js"></script>   
+</body>
+</html>
